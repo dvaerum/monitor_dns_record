@@ -1,0 +1,8 @@
+[package]
+name = "monitor_dns_record"
+version = "0.1.0"
+authors = ["nn <nn@nn.nn>"]
+
+[dependencies]
+trust-dns-resolver = "0.*"
+argparse = "0.*"
