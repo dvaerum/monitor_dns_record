@@ -83,7 +83,7 @@ fn monitor_dns_record(dns: &str, use_google_dns: bool) {
 
         let response = resolver.lookup_ip(dns.as_str()).unwrap();
         for ip in response.iter() {
-            match old_ips_clone.remove(ip) {
+            match old_ips_clone.remove(&ip) {
                 Some(_) => {},
                 None => {
                     run_loop = false;
