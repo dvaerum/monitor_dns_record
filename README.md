@@ -1,2 +1,2 @@
 # monitor_dns_record
-Simple program that will exit of a dns record change
+Simple program that will exit when a dns record change
